@@ -1,0 +1,3 @@
+configparser
+pymysql
+python-interface

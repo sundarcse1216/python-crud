@@ -1,0 +1,6 @@
+include versioneer.py
+include *.txt
+include *.rst
+recursive-include PythonCRUD *.py *.c *.h
+recursive-include docs *.conf *.ini *.py
+
