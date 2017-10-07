@@ -1,7 +1,7 @@
 import logging.config
 
 import PythonCRUD.crud.commons
-import PythonCRUD.crud.props.redriveprops
+import PythonCRUD.crud.props.retrieveprops
 import PythonCRUD.crud.retrieverecords
 import PythonCRUD.crud.utils.databaseutils
 import PythonCRUD.crud.utils.query
@@ -53,7 +53,7 @@ class RetrieveRecordsImpl(PythonCRUD.crud.retrieverecords.RetrieveRecords, Pytho
         cls.props_list = []
         if result_list:
             for results in result_list:
-                cls.retrieve_props = PythonCRUD.crud.props.redriveprops.RedriveProps()
+                cls.retrieve_props = PythonCRUD.crud.props.retrieveprops.RedriveProps()
                 if results[0]:
                     cls.retrieve_props.id = results[0]
                 else:

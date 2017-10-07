@@ -1,4 +1,3 @@
-import interface
 import abc
 
 
