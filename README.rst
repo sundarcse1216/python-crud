@@ -51,7 +51,18 @@ The argument minimum value is 1 maximum value is 4
 4 for Delete
 
 For Example: 
-	$ python __main__.py 1
+	case 1: $ python __main__.py 1 
+	
+	case 2: $ python __main__.py 1 2 
+	
+	case 3: $ python __main__.py 1 2 3
+	
+	case 4: $ python __main__.py 1 2 3 4
+	
+	case 5: $ python __main__.py 1 2 3 5 # command line argument is invalid maximun value id 4
+	
+	case 6: $ python __main__.py 1 2 3 4 3 # command line argument is invalid no.of arguments must be less than 5
+	
 Authors
 =======
  * Sundararajan S ( @sundar815 )
