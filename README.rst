@@ -52,7 +52,6 @@ The argument minimum value is 1 maximum value is 4
 
 For Example: 
 	$ python __main__.py 1
-
 Authors
 =======
  * Sundararajan S ( @sundar815 )
