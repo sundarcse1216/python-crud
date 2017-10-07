@@ -39,8 +39,9 @@ $ sudo python setup.py install
 
 Running
 =======
-\_\_main\_\_.py is the main class of this project, just go __main__.py file path and run this file with command-line argument(s). The command-line argument should be atleast one argument atmost four argument
+__main__.py is the main class of this project, just go __main__.py file path and run this file with command-line argument(s). The command-line argument should be atleast one argument atmost four argument
 The argument minimum value is 1 maximum value is 4
+
 1 for Create
 
 2 for Read
